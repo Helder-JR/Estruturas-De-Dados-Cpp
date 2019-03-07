@@ -124,6 +124,7 @@ unsigned int tamanho_da_lista(Lista *li)
     }
 }
 
+// Função que deleta dinamicamente a lista.
 int deleta_lista(Lista *li)
 {
     if (li == NULL)
